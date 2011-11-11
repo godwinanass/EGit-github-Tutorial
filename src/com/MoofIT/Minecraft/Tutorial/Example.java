@@ -18,6 +18,7 @@ public class Example extends JavaPlugin {
 
     //ClassListeners
 	private final ExampleBlockListener blockListener = new ExampleBlockListener(this);
+	private int newInt;
     //ClassListeners
 
 	Logger log = Logger.getLogger("Minecraft");//Define your logger
